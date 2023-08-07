@@ -37,7 +37,7 @@ This is a great start, but the power of this service is in its ability to provid
 
 To get started, create a configuration file in your project directory. This file should export a single default object.
 
-##### Javascript
+##### **Javascript**
 
 ```js
 // c2pa-test-image-service.config.js
@@ -56,7 +56,7 @@ export default {
 };
 ```
 
-##### Typescript
+##### **Typescript**
 
 [TypeScript](https://www.typescriptlang.org/) is strongly recommended, as it will provide type-checking and auto-completion for your configuration file. You can add TypeScript to your project with:
 
@@ -199,7 +199,8 @@ Returns an object with the following methods:
 - **`toFixtureData()`**
   - Exports the fixture store as a fixture data object in the format expected by the configuration file. Call this method when you are done adding fixtures to the store.
 
-#####`createAsset(assetData)`
+##### `createAsset(assetData)`
+
 Utility for creating `signedAssetDescriptor` objects.
 
 **Parameters**
