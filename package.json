@@ -1,0 +1,42 @@
+{
+  "name": "c2pa-test-image-service",
+  "version": "0.12.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "./dist/**/*"
+  ],
+  "scripts": {
+    "dev": "nodemon --exec 'ts-node --esm' src/main.ts",
+    "start": "ts-node --esm src/main.ts",
+    "build": "rimraf dist && tsc"
+  },
+  "bin": {
+    "c2pa-test-image-service": "./dist/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/lodash": "^4.14.196",
+    "@types/node": "^20.4.2",
+    "c2pa-node": "^0.5.7",
+    "cors": "^2.8.5",
+    "deepmerge-ts": "^5.1.0",
+    "express": "^4.18.2",
+    "jiti": "^1.19.1",
+    "lodash": "^4.17.21",
+    "nodemon": "^3.0.1",
+    "p-memoize": "^7.1.1",
+    "rimraf": "^5.0.1",
+    "sharp": "^0.32.3",
+    "sucrase": "^3.34.0",
+    "ts-deepmerge": "^6.2.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}
