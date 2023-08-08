@@ -191,6 +191,7 @@ export default {
 Creates the top-level fixture store to be provided in the configuration object.
 
 **Returns**
+
 Returns an object with the following methods:
 
 - **`addDefaultFixture(signedAssetDescriptor)`**
@@ -205,6 +206,7 @@ Returns an object with the following methods:
 Utility for creating `signedAssetDescriptor` objects.
 
 **Parameters**
+
 **`assetData`** is an object with the following properties:
 
 - **`title`** (required)
@@ -223,6 +225,7 @@ Utility for creating `signedAssetDescriptor` objects.
       - The height of the image. Defaults to 100.
 
 **Returns**
+
 Returns an object with the following methods:
 
 - **`addAssertion(label, data)`**
