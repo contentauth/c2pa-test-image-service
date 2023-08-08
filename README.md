@@ -45,9 +45,9 @@ export default {
   port: 8080,
   fixtures: {
     default: {
-      title: "test-image.jpg",
       image: { r: 0, g: 0, b: 255, width: 100, height: 100 },
       manifest: {
+        title: "test-image.jpg",
         claim_generator: "test-image-service",
         format: "image/jpeg",
       },
@@ -72,9 +72,9 @@ export default {
   port: 8080,
   fixtures: {
     default: {
-      title: "test-image.jpg",
       image: { r: 0, g: 0, b: 255, width: 100, height: 100 },
       manifest: {
+        title: "test-image.jpg",
         claim_generator: "test-image-service",
         format: "image/jpeg",
       },
@@ -99,9 +99,9 @@ export default {
       /* ... */
     },
     "another-fixture": {
-      title: "yet-another-fixture.jpg",
       image: { r: 255, g: 0, b: 255 },
       manifest: {
+        title: "yet-another-fixture.jpg",
         claim_generator: "test-image-service",
         format: "image/jpeg",
       },
@@ -110,6 +110,7 @@ export default {
           title: "ingredient.jpg",
           image: { r: 255, g: 0, b: 255 },
           manifest: {
+            title: "ingredient-asset.jpg",
             claim_generator: "test-image-service",
             format: "image/jpeg",
             assertions: [
@@ -152,7 +153,7 @@ const defaultFixtureData = createAsset({
 }).toJpeg();
 
 const ingredientData = createAsset({
-  title: "ingredient.jpg",
+  title: "ingredient-asset.jpg",
   image: { r: 255, g: 0, b: 255 },
 })
   .addAssertion("stds.schema-org.CreativeWork", {
@@ -166,7 +167,7 @@ const ingredientData = createAsset({
   .toJpeg();
 
 const complexFixtureData = createAsset({
-  title: "ingredient.jpg",
+  title: "yet-another-fixture.jpg",
   image: { r: 0, g: 255, b: 255 },
 })
   .addIngredient("ingredient.jpg", ingredientData)
