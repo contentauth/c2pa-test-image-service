@@ -6,8 +6,8 @@ c2pa-test-image-service is a Node.js service (built using [Express](https://gith
 
 ##### Prerequisites
 
-- [Node.js](https://nodejs.org/) (v16 or later)
-- [Rust](https://www.rust-lang.org/) (v1.18 or later to power [c2pa-node](https://github.com/contentauth/c2pa-node))
+- [Node.js](https://nodejs.org/) (v18 or later)
+- [Rust](https://www.rust-lang.org/) (optional if pre-built binaries don't exist for [c2pa-node](https://github.com/contentauth/c2pa-node) on your system)
 
 Before installation, ensure that you are in an active node project with a `package.json` file. If you are not, run [`npm init`](https://docs.npmjs.com/creating-a-package-json-file) to create one. Then, install the package:
 
