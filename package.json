@@ -1,6 +1,6 @@
 {
   "name": "c2pa-test-image-service",
-  "version": "0.12.0",
+  "version": "0.12.1",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -24,7 +24,7 @@
     "@types/express": "^4.17.17",
     "@types/lodash": "^4.14.196",
     "@types/node": "^20.4.2",
-    "c2pa-node": "^0.5.19",
+    "c2pa-node": "^0.5.20",
     "cors": "^2.8.5",
     "deepmerge-ts": "^5.1.0",
     "express": "^4.18.2",
