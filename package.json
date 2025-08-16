@@ -1,6 +1,6 @@
 {
   "name": "c2pa-test-image-service",
-  "version": "0.13.3",
+  "version": "0.13.4",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -26,17 +26,16 @@
     "@types/node": "^20.4.2",
     "c2pa-node": "^0.5.20",
     "cors": "^2.8.5",
-    "deepmerge-ts": "^5.1.0",
+    "deepmerge-ts": "^7.1.5",
     "express": "^4.18.2",
-    "jiti": "^1.19.1",
+    "jiti": "^2.5.1",
     "lodash": "^4.17.21",
     "nodemon": "^3.0.1",
-    "p-memoize": "^7.1.1",
+    "p-memoize": "^8.0.0",
     "rimraf": "^5.0.1",
-    "sharp": "^0.33.3",
+    "sharp": "^0.34.3",
     "sucrase": "^3.34.0",
-    "ts-deepmerge": "^6.2.0",
     "ts-node": "^10.9.1",
-    "typescript": "^5.1.6"
+    "typescript": "^5.9.2"
   }
 }
